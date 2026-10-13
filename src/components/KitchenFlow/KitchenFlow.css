@@ -1,0 +1,212 @@
+.kitchen-flow {
+
+    margin-top:30px;
+
+    background:#17191d;
+
+    padding:25px;
+
+    border-radius:18px;
+
+}
+
+
+
+.flow-header {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.flow-header span {
+
+    color:#2ECC71;
+
+    font-size:13px;
+
+}
+
+
+
+.lanes {
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+}
+
+
+
+.lane {
+
+    background:#22252b;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    min-height:250px;
+
+}
+
+
+
+.lane h3 {
+
+    margin-top:0;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+
+.order-count {
+
+    background:#333;
+
+    padding:3px 8px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+    color:#ddd;
+
+}
+
+
+
+.order-card {
+
+    background:#17191d;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    margin-top:15px;
+
+}
+
+
+
+.order-card p {
+
+    color:#aaa;
+
+}
+
+
+
+.status {
+
+    margin-left:5px;
+
+    color:#F7F4EE;
+
+}
+
+
+
+.empty {
+
+    color:#777;
+
+    text-align:center;
+
+    margin-top:40px;
+
+}
+
+
+
+/* Status colors */
+
+.waiting {
+
+    border-top:3px solid #E6A23C;
+
+}
+
+
+
+.preparing {
+
+    border-top:3px solid #E67E22;
+
+}
+
+
+
+.ready {
+
+    border-top:3px solid #2ECC71;
+
+}
+
+
+
+.served {
+
+    border-top:3px solid #777;
+
+}
+.order-items {
+
+    margin-top:15px;
+
+    color:#ddd;
+
+    font-size:14px;
+
+}
+
+
+.order-items div {
+
+    margin-bottom:6px;
+
+}
+
+
+
+.order-footer {
+
+    margin-top:15px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    color:#E67E22;
+
+    font-size:13px;
+
+}
+
+
+
+.table-number {
+
+    color:#F7F4EE !important;
+
+    font-weight:bold;
+
+}
+.accepted {
+    border-top:3px solid #3498DB;
+}

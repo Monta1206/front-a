@@ -1,0 +1,145 @@
+.table-board {
+
+    background:#17191d;
+
+    padding:25px;
+
+    border-radius:18px;
+
+}
+
+
+
+.section-header {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+}
+
+
+.section-header h2 {
+
+    margin:0;
+
+    font-size:22px;
+
+}
+
+
+.section-header span {
+
+    color:#2ECC71;
+
+    font-size:13px;
+
+}
+
+
+
+.tables-grid {
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+
+    gap:20px;
+
+}
+
+
+
+.table-card {
+
+
+    padding:20px;
+
+    border-radius:15px;
+
+    background:#22252b;
+
+    transition:.3s;
+
+    cursor:pointer;
+
+}
+
+
+
+.table-card:hover {
+
+    transform:translateY(-5px);
+
+}
+
+
+
+.table-number {
+
+    font-size:28px;
+
+    font-weight:bold;
+
+}
+
+
+
+.table-status {
+
+    margin-top:15px;
+
+    text-transform:capitalize;
+
+}
+
+
+
+.table-guests {
+
+    margin-top:10px;
+
+    color:#999;
+
+    font-size:14px;
+
+}
+
+
+
+/* Status states */
+
+
+.table-card.available {
+
+    border:1px solid #555;
+
+}
+
+
+
+.table-card.waiting {
+
+    border:2px solid #E6A23C;
+
+}
+
+
+
+.table-card.preparing {
+
+    border:2px solid #E67E22;
+
+}
+
+
+
+.table-card.ready {
+
+    border:2px solid #2ECC71;
+
+}

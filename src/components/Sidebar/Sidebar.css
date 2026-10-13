@@ -1,0 +1,145 @@
+.sidebar {
+
+    width:260px;
+    height:100vh;
+
+    background:#17191d;
+
+    color:#f7f4ee;
+
+    padding:30px 20px;
+
+    display:flex;
+    flex-direction:column;
+
+}
+
+
+.brand h2 {
+
+    color:#E67E22;
+
+    margin:0;
+
+    font-size:28px;
+
+}
+
+
+.brand span {
+
+    color:#8c8c8c;
+
+    font-size:13px;
+
+}
+
+
+
+nav {
+
+    margin-top:50px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+
+
+nav a {
+
+    text-decoration:none;
+
+    color:#bdbdbd;
+
+    padding:14px;
+
+    border-radius:8px;
+
+    transition:.2s;
+
+}
+
+
+
+nav a:hover {
+
+    background:#25282e;
+
+    color:white;
+
+}
+
+
+
+nav a.active {
+
+    background:#E67E22;
+
+    color:white;
+
+}
+
+
+
+.staff-status {
+
+    margin-top:auto;
+
+    background:#22252b;
+
+    padding:15px;
+
+    border-radius:12px;
+
+}
+
+
+.staff-status p {
+
+    color:#888;
+
+    margin:0;
+
+}
+
+
+.staff-status span {
+
+    color:#2ECC71;
+
+    font-size:13px;
+
+}
+.staff-status button {
+
+    margin-top:15px;
+
+    width:100%;
+
+    padding:10px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#E67E22;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:14px;
+
+}
+
+
+.staff-status button:hover {
+
+    opacity:0.85;
+
+}

@@ -1,0 +1,171 @@
+.users-page {
+
+    color:#F7F4EE;
+
+}
+
+
+
+.page-header {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:35px;
+
+}
+
+
+
+.page-header h1 {
+
+    margin:0;
+
+    font-size:32px;
+
+}
+
+
+
+.page-header p {
+
+    color:#888;
+
+}
+
+
+
+.page-header button {
+
+    background:#E67E22;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:8px;
+
+}
+
+
+
+.users-grid {
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+
+    gap:20px;
+
+}
+
+
+
+.user-card {
+
+    background:#17191d;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    display:flex;
+
+    gap:20px;
+
+    align-items:center;
+
+}
+
+
+
+.avatar {
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:50%;
+
+    background:#E67E22;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+}
+
+
+
+.user-info h2 {
+
+    margin:0;
+
+    font-size:20px;
+
+}
+
+
+
+.user-info p {
+
+    color:#888;
+
+    margin:5px 0 12px;
+
+}
+
+
+
+.role {
+
+    padding:5px 12px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+}
+
+
+
+.admin {
+
+    background:#5b2c83;
+
+}
+
+
+
+.chef {
+
+    background:#b45f06;
+
+}
+
+
+
+.waiter {
+
+    background:#1f618d;
+
+}
+
+
+
+.empty {
+
+    color:#888;
+
+}

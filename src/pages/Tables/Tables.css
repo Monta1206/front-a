@@ -1,0 +1,186 @@
+.tables-page {
+
+    color:#F7F4EE;
+
+}
+
+
+
+.page-header {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:35px;
+
+}
+
+
+
+.page-header h1 {
+
+    margin:0;
+
+    font-size:32px;
+
+}
+
+
+
+.page-header p {
+
+    color:#888;
+
+}
+
+
+
+.page-header button {
+
+    background:#E67E22;
+
+    border:none;
+
+    color:white;
+
+    padding:12px 20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+
+
+.table-grid {
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+
+    gap:20px;
+
+}
+
+
+
+.table-card {
+
+    background:#17191d;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+
+
+.table-number {
+
+    font-size:24px;
+
+    font-weight:bold;
+
+}
+
+
+
+.status {
+
+    width:max-content;
+
+    padding:7px 12px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+}
+
+
+
+.available {
+
+    background:#1f5f3b;
+
+    color:#2ECC71;
+
+}
+
+
+
+.occupied {
+
+    background:#5c2b2b;
+
+    color:#ff6b6b;
+
+}
+
+
+
+.qr-button {
+
+    background:#25282e;
+
+    border:none;
+
+    color:white;
+
+    padding:10px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+
+
+.qr-button:hover {
+
+    background:#E67E22;
+
+}
+
+
+
+.empty {
+
+    color:#888;
+
+}
+.delete-button {
+
+    background:#c0392b;
+
+    border:none;
+
+    color:white;
+
+    padding:10px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.delete-button:hover {
+
+    background:#e74c3c;
+
+}
